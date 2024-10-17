@@ -15,7 +15,7 @@ const Filter: React.FC = () => {
                 <option value="all">All</option>
                 <option value="active">Active</option>
                 <option value="completed">Completed</option>
-                <option value="notStarted">Not Started</option>
+                {/* <option value="notStarted">Not Started</option> */}
             </select>
         </div>
     );
